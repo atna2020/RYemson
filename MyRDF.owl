@@ -1,0 +1,431 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/jsmboli/ontologies/2019/2/Julius#"
+     xml:base="http://www.semanticweb.org/jsmboli/ontologies/2019/2/Julius"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:julius="http://www.semanticweb.org/jsmboli/ontologies/2019/2/Julius#"
+     xmlns:untitled-ontology-25="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/Julius"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/Julius#PartOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/Julius#PartOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/Julius#hasPump -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/Julius#hasPump">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jsmboli/ontologies/2019/2/Julius#PartOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/Julius#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/Julius#isPartOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Lifecyle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Lifecyle">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Product"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#UseCycle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#UseCycle">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Product"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Cascade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Cascade">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#UseCycle"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15501</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#NonFunctional"/>
+        <rdfs:comment>This class is for product need to casded. i.e given to a different company for different product.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Functional -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Functional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Product"/>
+        <rdfs:comment>This class is for product which are functional and can be directly reused</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#NonFunctional -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#NonFunctional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Product"/>
+        <rdfs:comment>This product are not functioal and need to be repaired, recycled, remamnufactured or cascaded.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Product">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>Product is the class for any EOL product</rdfs:comment>
+        <rdfs:comment>This is a product to be considered and can any product</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Recycle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Recycle">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Lifecyle"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</xsd:minExclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#UseCycle"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14501</xsd:minInclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15500</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#NonFunctional"/>
+        <rdfs:comment>class for recycling</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Remanufacture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Remanufacture">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Lifecyle"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</xsd:minExclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#UseCycle"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13001</xsd:minInclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14500</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#NonFunctional"/>
+        <rdfs:comment>Class for refurbishing products.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Repair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Repair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#NonFunctional"/>
+        <rdfs:comment>class for product has just minor issues and can be easily fixed.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Reuse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Reuse">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Lifecyle"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minInclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#UseCycle"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minInclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13000</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Functional"/>
+        <rdfs:comment>Reuse class are the functional products which need no further work work but just market distribution.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/Julius#Coffe_Machine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/Julius#Coffe_Machine">
+        <hasPump rdf:resource="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Pump1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/Julius#Pump11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/Julius#Pump11">
+        <untitled-ontology-25:Lifecyle rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.2</untitled-ontology-25:Lifecyle>
+        <untitled-ontology-25:UseCycle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12000</untitled-ontology-25:UseCycle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/Julius#Pump12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/Julius#Pump12">
+        <untitled-ontology-25:Lifecyle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16500</untitled-ontology-25:Lifecyle>
+        <untitled-ontology-25:UseCycle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</untitled-ontology-25:UseCycle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Pump1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Pump1">
+        <isPartOf rdf:resource="http://www.semanticweb.org/jsmboli/ontologies/2019/2/Julius#Coffe_Machine"/>
+        <untitled-ontology-25:Lifecyle rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</untitled-ontology-25:Lifecyle>
+        <untitled-ontology-25:UseCycle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9000</untitled-ontology-25:UseCycle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Pump10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Pump10">
+        <untitled-ontology-25:Lifecyle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</untitled-ontology-25:Lifecyle>
+        <untitled-ontology-25:UseCycle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15000</untitled-ontology-25:UseCycle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Pump2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Pump2">
+        <untitled-ontology-25:Lifecyle rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.5</untitled-ontology-25:Lifecyle>
+        <untitled-ontology-25:UseCycle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14500</untitled-ontology-25:UseCycle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Pump3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Pump3">
+        <untitled-ontology-25:Lifecyle rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.2</untitled-ontology-25:Lifecyle>
+        <untitled-ontology-25:UseCycle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15502</untitled-ontology-25:UseCycle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Pump4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Pump4">
+        <untitled-ontology-25:Lifecyle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-25:Lifecyle>
+        <untitled-ontology-25:UseCycle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10000</untitled-ontology-25:UseCycle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Pump5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Pump5">
+        <untitled-ontology-25:Lifecyle rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</untitled-ontology-25:Lifecyle>
+        <untitled-ontology-25:UseCycle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14600</untitled-ontology-25:UseCycle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Pump6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Pump6">
+        <untitled-ontology-25:Lifecyle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</untitled-ontology-25:Lifecyle>
+        <untitled-ontology-25:UseCycle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15539</untitled-ontology-25:UseCycle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Pump7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Pump7">
+        <untitled-ontology-25:Lifecyle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-25:Lifecyle>
+        <untitled-ontology-25:UseCycle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8500</untitled-ontology-25:UseCycle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Pump8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Pump8">
+        <untitled-ontology-25:Lifecyle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</untitled-ontology-25:Lifecyle>
+        <untitled-ontology-25:UseCycle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7800</untitled-ontology-25:UseCycle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Pump9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Pump9">
+        <untitled-ontology-25:Lifecyle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</untitled-ontology-25:Lifecyle>
+        <untitled-ontology-25:UseCycle rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13500</untitled-ontology-25:UseCycle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Cascade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Recycle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Remanufacture"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Repair"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jsmboli/ontologies/2019/2/untitled-ontology-25#Reuse"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
