@@ -1,0 +1,1084 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix myontology: <https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#> .
+@prefix osmethodology: <http://www.ordnancesurvey.co.uk/ontologies/osmethodology/1.0/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://imash.leeds.ac.uk/ontologies/amon/SentiWordNet.owl#Emotion> owl:equivalentClass myontology:Emotion .
+
+dc:creator a owl:AnnotationProperty .
+
+dc:date a owl:AnnotationProperty .
+
+dc:source a owl:AnnotationProperty .
+
+osmethodology:knowledge_source a owl:AnnotationProperty .
+
+osmethodology:natural_language_description a owl:AnnotationProperty .
+
+osmethodology:purpose a owl:AnnotationProperty .
+
+osmethodology:related_rabbit_sentence a owl:AnnotationProperty .
+
+osmethodology:scope a owl:AnnotationProperty .
+
+skos:altLabel a owl:AnnotationProperty .
+
+skos:prefLabel a owl:AnnotationProperty .
+
+<https://jsmboli.github.io/jsmboli/ontologies/myontology.owl> a owl:Ontology ;
+    dc:creator """Dhavalkumar Thakker
+Stan Karanasios
+Ronald Denaux
+Vania Dimitrova"""@en ;
+    dc:date "27/04/2011"@en ;
+    osmethodology:knowledge_source "Dhaval",
+        "Engeström, Miettinnen et al. 1999",
+        "Izzard 1997",
+        "Kring and Stuart 2005",
+        "Leontev 1978",
+        "Stan Karanasios" ;
+    osmethodology:purpose "Aims to structure and define an activity model." ;
+    osmethodology:scope "Includes the main concept of an activity following Activity Theory." ;
+    owl:imports <http://imash.leeds.ac.uk/ontologies/amon/SentiWordNet.owl> ;
+    owl:versionInfo "Brought the naming conventions inline with the standard practice.",
+        "1.1"@en,
+        "added proxemics instances (that were not supplied by DE) "@en,
+        "expanded paralanguage instances (not from DE)"@en .
+
+myontology:Bio-based a owl:Class ;
+    rdfs:subClassOf <https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Resources/Materials> ;
+    owl:disjointWith <https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Technical/Technological> .
+
+myontology:Bundling a owl:Class ;
+    rdfs:subClassOf myontology:Operation .
+
+myontology:Material_Composition a owl:Class ;
+    rdfs:subClassOf myontology:Recycled_Product .
+
+myontology:Melting_and_reorganization a owl:Class ;
+    rdfs:subClassOf myontology:Operation .
+
+myontology:Product1 myontology:LifecycleData 4427726.432097567 ;
+    myontology:UseCycleData 149920 .
+
+myontology:Product10 myontology:LifecycleData 918594.8084579001 ;
+    myontology:UseCycleData 2478 .
+
+myontology:Product11 myontology:LifecycleData 3987059.4253217666 ;
+    myontology:UseCycleData 8877 .
+
+myontology:Product12 myontology:LifecycleData 1971367.1885239838 ;
+    myontology:UseCycleData 89118 .
+
+myontology:Product13 myontology:LifecycleData 3136367.765352234 ;
+    myontology:UseCycleData 8890 .
+
+myontology:Product14 myontology:LifecycleData 3461464.9604156166 ;
+    myontology:UseCycleData 8889 .
+
+myontology:Product15 myontology:LifecycleData 4512326.435100516 ;
+    myontology:UseCycleData 14878 .
+
+myontology:Product16 myontology:LifecycleData 2886751.114824 ;
+    myontology:UseCycleData 49925 .
+
+myontology:Product17 myontology:LifecycleData 1095705.2199891 ;
+    myontology:UseCycleData 9979 .
+
+myontology:Product18 myontology:LifecycleData 3987126.771155233 ;
+    myontology:UseCycleData 74873 .
+
+myontology:Product19 myontology:LifecycleData 4427707.428764483 ;
+    myontology:UseCycleData 129905 .
+
+myontology:Product2 myontology:LifecycleData 2584835.5786178666 ;
+    myontology:UseCycleData 9493 .
+
+myontology:Product20 myontology:LifecycleData 3549582.1515221666 ;
+    myontology:UseCycleData 129163 .
+
+myontology:Product21 myontology:LifecycleData 1710003.17127135 ;
+    myontology:UseCycleData 7596 .
+
+myontology:Product22 myontology:LifecycleData 4557865.1550306175 ;
+    myontology:UseCycleData 149889 .
+
+myontology:Product23 myontology:LifecycleData 2585550.3013117835 ;
+    myontology:UseCycleData 9496 .
+
+myontology:Product230 myontology:LifecycleData 2059635.2289815333 ;
+    myontology:UseCycleData 11097 .
+
+myontology:Product231 myontology:LifecycleData 2058798.3959349 ;
+    myontology:UseCycleData 12297 .
+
+myontology:Product232 myontology:LifecycleData 2058953.8334642337 ;
+    myontology:UseCycleData 7597 .
+
+myontology:Product233 myontology:LifecycleData 2059122.44344475 ;
+    myontology:UseCycleData 10498 .
+
+myontology:Product234 myontology:LifecycleData 2058838.63271815 ;
+    myontology:UseCycleData 8998 .
+
+myontology:Product235 myontology:LifecycleData 2058876.3863005335 ;
+    myontology:UseCycleData 9497 .
+
+myontology:Product236 myontology:LifecycleData 2058824.0491680168 ;
+    myontology:UseCycleData 9998 .
+
+myontology:Product238 myontology:LifecycleData 2058993.68958555 ;
+    myontology:UseCycleData 10997 .
+
+myontology:Product239 myontology:LifecycleData 2058987.1879685668 ;
+    myontology:UseCycleData 12497 .
+
+myontology:Product24 myontology:LifecycleData 4557304.391302333 ;
+    myontology:UseCycleData 129871 .
+
+myontology:Product26 myontology:LifecycleData 3986562.53099695 ;
+    myontology:UseCycleData 8926 .
+
+myontology:Product27 myontology:LifecycleData 3556711.506855784 ;
+    myontology:UseCycleData 89891 .
+
+myontology:Product3 myontology:LifecycleData 4031182.477642134 ;
+    myontology:UseCycleData 8893 .
+
+myontology:Product4 myontology:LifecycleData 4645335.088050017 ;
+    myontology:UseCycleData 129880 .
+
+myontology:Product5 myontology:LifecycleData 4464790.731675017 ;
+    myontology:UseCycleData 12878 .
+
+myontology:Product6 myontology:LifecycleData 4549610.748142984 ;
+    myontology:UseCycleData 12940 .
+
+myontology:Product7 myontology:LifecycleData 2496607.9504846833 ;
+    myontology:UseCycleData 74937 .
+
+myontology:Product8 myontology:LifecycleData 3986623.3012200166 ;
+    myontology:UseCycleData 14902 .
+
+myontology:Product9 myontology:LifecycleData 3987133.2061589006 ;
+    myontology:UseCycleData 14867 .
+
+myontology:Pump1 a owl:NamedIndividual ;
+    myontology:LifecycleData 9000 ;
+    myontology:UseCycleData 1 .
+
+myontology:Pump10 a owl:NamedIndividual ;
+    myontology:LifecycleData 4 ;
+    myontology:UseCycleData 15000 .
+
+myontology:Pump11 a owl:NamedIndividual ;
+    myontology:LifecycleData 1.2 ;
+    myontology:UseCycleData 12000 .
+
+myontology:Pump12 a owl:NamedIndividual ;
+    myontology:LifecycleData 5 ;
+    myontology:UseCycleData 16500 .
+
+myontology:Pump2 a owl:NamedIndividual ;
+    myontology:LifecycleData 2.5 ;
+    myontology:UseCycleData 34555 .
+
+myontology:Pump3 a owl:NamedIndividual ;
+    myontology:LifecycleData 5.2 ;
+    myontology:UseCycleData 15502 .
+
+myontology:Pump4 a owl:NamedIndividual ;
+    myontology:LifecycleData 1 ;
+    myontology:UseCycleData 10000 .
+
+myontology:Pump5 a owl:NamedIndividual ;
+    myontology:LifecycleData 4 ;
+    myontology:UseCycleData 14600 .
+
+myontology:Pump6 a owl:NamedIndividual ;
+    myontology:LifecycleData 5 ;
+    myontology:UseCycleData 15539 .
+
+myontology:Pump7 a owl:NamedIndividual ;
+    myontology:LifecycleData 1 ;
+    myontology:UseCycleData 8500 .
+
+myontology:Pump8 a owl:NamedIndividual ;
+    myontology:LifecycleData 2 ;
+    myontology:UseCycleData 7800 .
+
+myontology:Pump9 a owl:NamedIndividual ;
+    myontology:LifecycleData 3 ;
+    myontology:UseCycleData 13500 .
+
+myontology:Reuse a owl:Class ;
+    rdfs:subClassOf myontology:Functional ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:onProperty myontology:LifecycleData ;
+            owl:someValuesFrom [ a rdfs:Datatype ;
+                    owl:onDatatype xsd:integer ;
+                    owl:withRestrictions ( [ xsd:minInclusive 0 ] [ xsd:maxInclusive 2 ] ) ] ],
+        [ a owl:Restriction ;
+            owl:onProperty myontology:UseCycleData ;
+            owl:someValuesFrom [ a rdfs:Datatype ;
+                    owl:onDatatype xsd:integer ;
+                    owl:withRestrictions ( [ xsd:minInclusive 0 ] [ xsd:maxInclusive 13000 ] ) ] ] .
+
+myontology:Shreding a owl:Class ;
+    rdfs:subClassOf myontology:Operation .
+
+myontology:Sorting a owl:Class ;
+    rdfs:subClassOf myontology:Operation .
+
+myontology:Transport_to_MRF a owl:Class ;
+    rdfs:subClassOf myontology:Operation .
+
+myontology:Used_product_collection a owl:Class ;
+    rdfs:subClassOf myontology:Operation .
+
+myontology:Various_levels_of_Experiences_in_Manufacturing a owl:Class ;
+    rdfs:subClassOf myontology:Manufacturing_Experience .
+
+myontology:Various_levels_of_Experiences_in_Marketing a owl:Class ;
+    rdfs:subClassOf myontology:Marketing_Experience .
+
+myontology:Various_levels_of_formal_Educations a owl:Class ;
+    rdfs:subClassOf myontology:Educational_Background .
+
+myontology:Washing a owl:Class ;
+    rdfs:subClassOf myontology:Operation .
+
+myontology:deintensify a owl:ObjectProperty ;
+    rdfs:label "deintensifies" ;
+    osmethodology:related_rabbit_sentence "deintensifies is a relationship." .
+
+myontology:hasCultureNorm a owl:ObjectProperty ;
+    rdfs:subPropertyOf myontology:hasRuleNorm .
+
+myontology:hasDisplayRule a owl:ObjectProperty ;
+    rdfs:subPropertyOf myontology:hasRuleNorm .
+
+myontology:inCulture a owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+myontology:intensify a owl:ObjectProperty ;
+    rdfs:label "intensifies" ;
+    osmethodology:related_rabbit_sentence "intensifies is a relationship." .
+
+myontology:interPersonalCommunicationActivityInvolves a owl:ObjectProperty .
+
+myontology:isGovernByRuleNorm a owl:ObjectProperty ;
+    rdfs:label "Is governed by" ;
+    osmethodology:related_rabbit_sentence "Is governed by is a relationship.",
+        "The relationship is governed by is the inverse of governs." ;
+    owl:inverseOf myontology:ruleNormGovern .
+
+myontology:mask a owl:ObjectProperty ;
+    rdfs:label "masks" ;
+    osmethodology:related_rabbit_sentence "masks is a relationship." .
+
+myontology:neutralise a owl:ObjectProperty ;
+    rdfs:label "neutralises" ;
+    osmethodology:related_rabbit_sentence "neutralises is a relationship." .
+
+myontology:nonVerbalCommunicationUse a owl:ObjectProperty ;
+    rdfs:label "Non Verbal Communication Use" ;
+    osmethodology:related_rabbit_sentence "uses is a relationship." .
+
+myontology:ruleNormInfluence a owl:ObjectProperty .
+
+myontology:3D_Printing a owl:Class ;
+    rdfs:subClassOf myontology:Manufacturing_Technologies .
+
+myontology:AI a owl:Class ;
+    rdfs:subClassOf myontology:Manufacturing_Technologies .
+
+myontology:Academic_Reseachers a owl:Class ;
+    rdfs:subClassOf myontology:Collaborators .
+
+myontology:Activity_Viewpoint a owl:Class ;
+    rdfs:label "Activity Viewpoint"@en ;
+    osmethodology:related_rabbit_sentence "Activity Viewpoint is a concept.",
+        "Every Activity Viewpoint is viewpoint of  exactly one Subject." ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onClass myontology:Subject ;
+            owl:onProperty myontology:isViewpointOf ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ],
+        owl:Thing .
+
+myontology:Analytical_Instrumentation a owl:Class ;
+    rdfs:subClassOf myontology:Manufacturing_Equipment .
+
+myontology:Assembly a owl:Class ;
+    rdfs:subClassOf myontology:Components .
+
+myontology:Augmented_Reality a owl:Class ;
+    rdfs:subClassOf myontology:Manufacturing_Technologies .
+
+myontology:Big_Data a owl:Class ;
+    rdfs:subClassOf myontology:Manufacturing_Technologies .
+
+myontology:Bricks_and_Inert_Waste_Recycling a owl:Class ;
+    rdfs:subClassOf myontology:Recycling_Technologies .
+
+myontology:CAL a owl:Class ;
+    rdfs:subClassOf myontology:Activity .
+
+myontology:Cascade a owl:Class ;
+    rdfs:subClassOf myontology:NonFunctional ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:onProperty myontology:UseCycleData ;
+            owl:someValuesFrom [ a rdfs:Datatype ;
+                    owl:onDatatype xsd:integer ;
+                    owl:withRestrictions ( [ xsd:minInclusive 15501 ] ) ] ] .
+
+myontology:Casing a owl:Class ;
+    rdfs:subClassOf myontology:Components .
+
+myontology:Certification a owl:Class ;
+    rdfs:subClassOf myontology:Reverse_Logistics_services .
+
+myontology:Chemical_Recycling a owl:Class ;
+    rdfs:subClassOf myontology:Recycling .
+
+myontology:City a owl:Class ;
+    rdfs:subClassOf myontology:Address .
+
+myontology:Clothing_and_Textile a owl:Class ;
+    rdfs:subClassOf myontology:Recycling_Technologies .
+
+myontology:Cloud_manufacturing a owl:Class ;
+    rdfs:subClassOf myontology:Manufacturing_Technologies .
+
+myontology:Collection a owl:Class ;
+    rdfs:subClassOf myontology:Cost .
+
+myontology:Collection_point a owl:Class ;
+    rdfs:subClassOf myontology:Reverse_Logistics_services .
+
+myontology:Condition a owl:Class ;
+    rdfs:subClassOf myontology:Outcome,
+        myontology:Recycled_Product .
+
+myontology:ControllerChip a owl:Class ;
+    rdfs:subClassOf myontology:Components .
+
+myontology:Cutting_Machines a owl:Class ;
+    rdfs:subClassOf myontology:Manufacturing_Equipment .
+
+myontology:Cyber-Physical_Systems a owl:Class ;
+    rdfs:subClassOf myontology:Manufacturing_Technologies .
+
+myontology:Die_casting_machines a owl:Class ;
+    rdfs:subClassOf myontology:Manufacturing_Equipment .
+
+myontology:Distributor a owl:Class ;
+    rdfs:subClassOf myontology:Reverse_Logistics_services .
+
+myontology:Electronics_production_machines a owl:Class ;
+    rdfs:subClassOf myontology:Manufacturing_Equipment .
+
+myontology:Employees a owl:Class ;
+    rdfs:subClassOf myontology:Collaborators .
+
+myontology:End_users a owl:Class ;
+    rdfs:subClassOf myontology:Collaborators .
+
+myontology:Energy a owl:Class ;
+    rdfs:subClassOf myontology:Cost .
+
+myontology:Equipment_Suppliers a owl:Class ;
+    rdfs:subClassOf myontology:Collaborators .
+
+myontology:Extrusion_machines a owl:Class ;
+    rdfs:subClassOf myontology:Manufacturing_Equipment .
+
+<https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Free/Incentive/cost> a owl:Class ;
+    rdfs:subClassOf myontology:Reverse_Logistics_services .
+
+myontology:Functional a owl:Class ;
+    rdfs:subClassOf myontology:Post_Use_Activity ;
+    owl:disjointWith myontology:NonFunctional .
+
+myontology:Glass_Recycling a owl:Class ;
+    rdfs:subClassOf myontology:Recycling_Technologies .
+
+myontology:Government a owl:Class ;
+    rdfs:subClassOf myontology:Collaborators .
+
+myontology:Handling_and_Lifting a owl:Class ;
+    rdfs:subClassOf myontology:Manufacturing_Equipment .
+
+myontology:Heaating a owl:Class ;
+    rdfs:subClassOf myontology:Components .
+
+myontology:House_Number a owl:Class ;
+    rdfs:subClassOf myontology:Address .
+
+myontology:Incentives a owl:Class ;
+    rdfs:subClassOf myontology:Cost .
+
+myontology:Industrial_3D_printers a owl:Class ;
+    rdfs:subClassOf myontology:Manufacturing_Equipment .
+
+myontology:Industry_4.0 a owl:Class ;
+    rdfs:subClassOf myontology:Manufacturing_Technologies .
+
+myontology:InternalStructure a owl:Class ;
+    rdfs:subClassOf myontology:Components .
+
+myontology:IoT a owl:Class ;
+    rdfs:subClassOf myontology:Manufacturing_Technologies .
+
+myontology:Labour a owl:Class ;
+    rdfs:subClassOf myontology:Cost .
+
+myontology:Laser_sintering_machines a owl:Class ;
+    rdfs:subClassOf myontology:Manufacturing_Equipment .
+
+myontology:Manomer_Recovery a owl:Class ;
+    rdfs:subClassOf myontology:Recycling .
+
+myontology:Materials a owl:Class ;
+    rdfs:subClassOf myontology:Cost .
+
+myontology:Mechanical_Recycling a owl:Class ;
+    rdfs:subClassOf myontology:Recycling .
+
+myontology:Metal_Recycling a owl:Class ;
+    rdfs:subClassOf myontology:Recycling_Technologies .
+
+myontology:Molding_machines a owl:Class ;
+    rdfs:subClassOf myontology:Manufacturing_Equipment .
+
+myontology:Nanotechnology a owl:Class ;
+    rdfs:subClassOf myontology:Manufacturing_Technologies .
+
+myontology:Online_Communities a owl:Class ;
+    rdfs:subClassOf myontology:Collaborators .
+
+myontology:Organizations a owl:Class ;
+    rdfs:subClassOf myontology:Collaborators .
+
+myontology:Plastic_Recycling a owl:Class ;
+    rdfs:subClassOf myontology:Recycling_Technologies .
+
+myontology:Post_Code a owl:Class ;
+    rdfs:subClassOf myontology:Address .
+
+myontology:PowerSuupply a owl:Class ;
+    rdfs:subClassOf myontology:Components .
+
+myontology:Provider a owl:Class ;
+    rdfs:subClassOf myontology:Reverse_Logistics_services .
+
+myontology:Pump a owl:Class ;
+    rdfs:subClassOf myontology:Components .
+
+myontology:Raw_Materials_Suppliers a owl:Class ;
+    rdfs:subClassOf myontology:Collaborators .
+
+myontology:Remanufacture a owl:Class ;
+    rdfs:subClassOf myontology:NonFunctional ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:onProperty myontology:LifecycleData ;
+            owl:someValuesFrom [ a rdfs:Datatype ;
+                    owl:onDatatype xsd:integer ;
+                    owl:withRestrictions ( [ xsd:minExclusive 2 ] [ xsd:maxInclusive 3 ] ) ] ],
+        [ a owl:Restriction ;
+            owl:onProperty myontology:UseCycleData ;
+            owl:someValuesFrom [ a rdfs:Datatype ;
+                    owl:onDatatype xsd:integer ;
+                    owl:withRestrictions ( [ xsd:minInclusive 13001 ] [ xsd:maxInclusive 14500 ] ) ] ] .
+
+myontology:Repair a owl:Class ;
+    rdfs:subClassOf myontology:NonFunctional .
+
+myontology:Shareholders a owl:Class ;
+    rdfs:subClassOf myontology:Collaborators .
+
+myontology:Smart_Manufacturing a owl:Class ;
+    rdfs:subClassOf myontology:Manufacturing_Technologies .
+
+myontology:Society a owl:Class ;
+    rdfs:subClassOf myontology:Collaborators .
+
+myontology:Stakeholders a owl:Class ;
+    rdfs:subClassOf myontology:Collaborators .
+
+myontology:Street a owl:Class ;
+    rdfs:subClassOf myontology:Address .
+
+<https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Technical/Technological> a owl:Class ;
+    rdfs:subClassOf <https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Resources/Materials> .
+
+<https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#WEEE_Recycling_(Electronic_Devices)> a owl:Class ;
+    rdfs:subClassOf myontology:Recycling_Technologies .
+
+myontology:Warehouse a owl:Class ;
+    rdfs:subClassOf myontology:Reverse_Logistics_services .
+
+myontology:Waste_Paper_and_Cardboard a owl:Class ;
+    rdfs:subClassOf myontology:Recycling_Technologies .
+
+myontology:Wood_Recycling a owl:Class ;
+    rdfs:subClassOf myontology:Recycling_Technologies .
+
+myontology:Wood_saws a owl:Class ;
+    rdfs:subClassOf myontology:Manufacturing_Equipment .
+
+<https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Yes/No> a owl:Class ;
+    rdfs:subClassOf myontology:Reverse_Logistics_services .
+
+myontology:activityHasMotivation a owl:ObjectProperty ;
+    rdfs:domain myontology:Activity ;
+    rdfs:range myontology:Motivation .
+
+myontology:hasAction a owl:ObjectProperty ;
+    rdfs:domain myontology:Activity ;
+    rdfs:range myontology:Action ;
+    owl:inverseOf myontology:isPartOfActivity .
+
+myontology:hasDivisionOfLabour a owl:ObjectProperty ;
+    rdfs:domain myontology:Activity ;
+    rdfs:range myontology:Division_of_Labour .
+
+myontology:hasGoal a owl:ObjectProperty ;
+    rdfs:domain myontology:Action ;
+    rdfs:range myontology:Goal .
+
+myontology:hasObject a owl:ObjectProperty ;
+    rdfs:domain myontology:Activity ;
+    rdfs:range myontology:Object ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    owl:inverseOf myontology:isPartOfAction .
+
+myontology:hasOperation a owl:ObjectProperty ;
+    rdfs:domain myontology:Action ;
+    rdfs:range myontology:Operation .
+
+myontology:hasOutcome a owl:ObjectProperty ;
+    rdfs:domain myontology:Activity ;
+    rdfs:range myontology:Outcome .
+
+myontology:hasSubject a owl:ObjectProperty ;
+    rdfs:domain myontology:Activity ;
+    rdfs:range myontology:Subject .
+
+myontology:hasTool a owl:ObjectProperty ;
+    rdfs:domain myontology:Activity ;
+    rdfs:range myontology:Tool .
+
+myontology:influenceByCommunity a owl:ObjectProperty ;
+    rdfs:label "influenced by" ;
+    osmethodology:related_rabbit_sentence "influenced by is a relationship." .
+
+myontology:isDefinedBy a owl:ObjectProperty ;
+    rdfs:label "is defined by" ;
+    osmethodology:related_rabbit_sentence "is defined by is a relationship." .
+
+myontology:perform a owl:ObjectProperty ;
+    rdfs:label "performs" ;
+    osmethodology:related_rabbit_sentence "performs is a Relationship." .
+
+myontology:subjectHasMotivation a owl:ObjectProperty ;
+    rdfs:domain myontology:Subject ;
+    rdfs:range myontology:Motivation ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+myontology:subjectUsesTool a owl:ObjectProperty ;
+    rdfs:domain myontology:Subject ;
+    rdfs:range myontology:Tool .
+
+myontology:undertake a owl:ObjectProperty ;
+    rdfs:label "undertakes" ;
+    osmethodology:related_rabbit_sentence "undertakes is a relationship." ;
+    rdfs:domain myontology:Subject ;
+    rdfs:range myontology:Activity .
+
+myontology:Creation_Activity a owl:Class ;
+    rdfs:subClassOf myontology:CAL .
+
+myontology:Emotion a owl:Class ;
+    rdfs:label "Emotion"@en,
+        "Emotions"@en ;
+    osmethodology:natural_language_description "Complex systems, that constitute the motivational system of human beings, developed through the course of human evolution to preapre an organism to act in response to environmental stimuli and challenges.  [Izzard 1997]",
+        "Emotion and activity are interrelated [Stan Karanasios]" ;
+    osmethodology:related_rabbit_sentence "Emotion is a concept.",
+        "Emotion usually is related to Action.",
+        "Emotion usually is related to Activity.",
+        "Emotion usually is related to Operation." ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty myontology:isEmbeddedIn ;
+            owl:someValuesFrom myontology:Motivation ],
+        [ a owl:Restriction ;
+            owl:onProperty myontology:isEmbeddedIn ;
+            owl:someValuesFrom myontology:Activity ],
+        [ a owl:Restriction ;
+            owl:onProperty myontology:isEmbeddedIn ;
+            owl:someValuesFrom myontology:Operation ],
+        owl:Thing .
+
+myontology:Goal a owl:Class ;
+    rdfs:label "Goal" ;
+    osmethodology:related_rabbit_sentence "Goal is a Concept." ;
+    rdfs:subClassOf owl:Thing .
+
+myontology:LifeCycle a owl:Class ;
+    rdfs:subClassOf myontology:Components .
+
+myontology:Materials_from_supplier a owl:Class ;
+    rdfs:subClassOf myontology:New_Product_Creation_Activity .
+
+myontology:Person a owl:Class ;
+    rdfs:label "Individual"@en ;
+    osmethodology:natural_language_description "An individual is a person. We do not provide a formal definition here. [Stan Karanasios]" ;
+    osmethodology:related_rabbit_sentence "Individual is a concept." ;
+    rdfs:subClassOf owl:Thing ;
+    skos:altLabel "Person"@en .
+
+myontology:Phone_Call a owl:Class ;
+    rdfs:subClassOf myontology:Tool .
+
+myontology:Rating a owl:Class ;
+    rdfs:subClassOf myontology:Outcome,
+        myontology:Recycled_Product,
+        myontology:Reverse_Logistics_services .
+
+myontology:Social_mdeia a owl:Class ;
+    rdfs:subClassOf myontology:Tool .
+
+myontology:Transport_from_warehouse a owl:Class ;
+    rdfs:subClassOf myontology:New_Product_Creation_Activity .
+
+myontology:Transport_inside_warehouse a owl:Class ;
+    rdfs:subClassOf myontology:New_Product_Creation_Activity .
+
+myontology:Transport_to_warehouse a owl:Class ;
+    rdfs:subClassOf myontology:New_Product_Creation_Activity .
+
+myontology:Transport_toplant a owl:Class ;
+    rdfs:subClassOf myontology:New_Product_Creation_Activity .
+
+myontology:Usecycle a owl:Class ;
+    rdfs:subClassOf myontology:Components .
+
+myontology:Utilities_at_plant a owl:Class ;
+    rdfs:subClassOf myontology:New_Product_Creation_Activity .
+
+myontology:Utilities_at_warehouse a owl:Class ;
+    rdfs:subClassOf myontology:New_Product_Creation_Activity .
+
+myontology:Websites a owl:Class ;
+    rdfs:subClassOf myontology:Tool .
+
+myontology:communityInfluence a owl:ObjectProperty ;
+    rdfs:label "influences" ;
+    osmethodology:related_rabbit_sentence "The Relationship influences is the inverse of influenced by.",
+        "influences is a relationship." ;
+    rdfs:domain myontology:Community ;
+    rdfs:range myontology:Subject ;
+    owl:inverseOf myontology:influenceByCommunity .
+
+myontology:interactWith a owl:ObjectProperty ;
+    rdfs:label "interacts with" ;
+    osmethodology:related_rabbit_sentence "interacts with is a relationship." ;
+    rdfs:domain myontology:Subject ;
+    rdfs:range myontology:Community,
+        myontology:Object .
+
+myontology:isPartOfAction a owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+myontology:isPartOfActivity a owl:ObjectProperty ;
+    rdfs:label "is part of" ;
+    osmethodology:related_rabbit_sentence "is part of is a relationship." .
+
+myontology:isViewpointOf a owl:ObjectProperty ;
+    rdfs:label "is viewpoint of" ;
+    osmethodology:related_rabbit_sentence "is viewpoint of is a relationship." .
+
+myontology:Description a owl:Class ;
+    rdfs:subClassOf myontology:Components,
+        myontology:Outcome,
+        myontology:Recycled_Product .
+
+myontology:Division_of_Labour a owl:Class ;
+    rdfs:label "Division of Labour"@en,
+        "Hierarchical Structure"@en,
+        "Hierarchy"@en,
+        "Roles Structure"@en,
+        "Task Division"@en ;
+    osmethodology:natural_language_description "The way the tasks are divided up and the way roles and hierarchies are structured. Division of Labour is performed by community, subject and object.  [Engeström, Miettinnen et al. 1999]" ;
+    osmethodology:related_rabbit_sentence "Division of Labour is a concept.",
+        "Every Division of Labour is performed by Community.",
+        "Every Division of Labour is performed by Object.",
+        "Every Division of Labour is performed by Subject." ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty myontology:isPerformedBy ;
+            owl:someValuesFrom myontology:Object ],
+        [ a owl:Restriction ;
+            owl:onProperty myontology:isPerformedBy ;
+            owl:someValuesFrom myontology:Subject ],
+        [ a owl:Restriction ;
+            owl:onProperty myontology:isPerformedBy ;
+            owl:someValuesFrom myontology:Community ],
+        owl:Thing .
+
+myontology:Educational_Background a owl:Class ;
+    rdfs:subClassOf myontology:Tool .
+
+myontology:Group a owl:Class ;
+    rdfs:label "Group" ;
+    osmethodology:natural_language_description "Group is a collection of individuals [Stan Karanasios]" ;
+    osmethodology:related_rabbit_sentence "Every Group is a kind of Subject or Community.",
+        "Group is a concept." ;
+    rdfs:subClassOf [ a owl:Class ;
+            owl:unionOf ( myontology:Community myontology:Subject ) ],
+        owl:Thing .
+
+myontology:ID a owl:Class ;
+    rdfs:subClassOf myontology:Components,
+        myontology:Outcome,
+        myontology:Recycled_Product .
+
+myontology:LifecycleData a owl:DatatypeProperty .
+
+myontology:Manufacturing_Experience a owl:Class ;
+    rdfs:subClassOf myontology:Tool .
+
+myontology:Marketing_Experience a owl:Class ;
+    rdfs:subClassOf myontology:Tool .
+
+myontology:Model a owl:Class ;
+    rdfs:subClassOf myontology:Components,
+        myontology:Outcome,
+        myontology:Recycled_Product .
+
+myontology:Name a owl:Class ;
+    rdfs:subClassOf myontology:Components,
+        myontology:Outcome,
+        myontology:Recycled_Product .
+
+myontology:New_Product a owl:Class ;
+    rdfs:subClassOf myontology:Outcome .
+
+myontology:Price a owl:Class ;
+    rdfs:subClassOf myontology:Components,
+        myontology:Outcome,
+        myontology:Recycled_Product .
+
+<https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Resources/Materials> a owl:Class ;
+    rdfs:subClassOf myontology:Object .
+
+myontology:Rule_Norm a owl:Class ;
+    rdfs:label "Conventions"@en,
+        "Norm"@en,
+        "Norm (social)"@en,
+        "Norms"@en,
+        "Regulations"@en,
+        "Regulations, Norms and Conventions"@en,
+        "Rules & Norms"@en ;
+    osmethodology:natural_language_description "Rules & Norms govern Community, Subject and Object. [Stan Karanasios]",
+        "Regulations, Norms and Conventions (explicit and implicit) that constrain activity. [Engeström, Miettinnen et al. 1999]"@en ;
+    osmethodology:related_rabbit_sentence "Every Rules & Norms govern Community.",
+        "Every Rules & Norms govern Object.",
+        "Every Rules & Norms govern Subject.",
+        "Rules & Norms is a concept." ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty myontology:ruleNormGovern ;
+            owl:someValuesFrom myontology:Community ],
+        [ a owl:Restriction ;
+            owl:onProperty myontology:ruleNormGovern ;
+            owl:someValuesFrom myontology:Object ],
+        [ a owl:Restriction ;
+            owl:onProperty myontology:ruleNormGovern ;
+            owl:someValuesFrom myontology:Subject ],
+        owl:Thing .
+
+myontology:hasRuleNorm a owl:ObjectProperty ;
+    rdfs:domain myontology:Activity ;
+    rdfs:range myontology:Rule_Norm .
+
+myontology:isEmbeddedIn a owl:ObjectProperty ;
+    rdfs:domain myontology:Emotion ;
+    rdfs:range myontology:Activity,
+        myontology:Motivation,
+        myontology:Operation ;
+    skos:prefLabel "is embedded in"@en .
+
+myontology:isPerformedBy a owl:ObjectProperty ;
+    rdfs:label "is performed by" ;
+    osmethodology:related_rabbit_sentence "The Relationship is performed by  is the inverse of performs.",
+        "is performed by is a relationship." ;
+    owl:inverseOf myontology:perform .
+
+myontology:Post_Use_Activity a owl:Class ;
+    rdfs:subClassOf myontology:Creation_Activity .
+
+myontology:Recycling a owl:Class ;
+    rdfs:subClassOf myontology:NonFunctional ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:onProperty myontology:UseCycleData ;
+            owl:someValuesFrom [ a rdfs:Datatype ;
+                    owl:onDatatype xsd:integer ;
+                    owl:withRestrictions ( [ xsd:minInclusive 14501 ] [ xsd:maxInclusive 15500 ] ) ] ],
+        [ a owl:Restriction ;
+            owl:onProperty myontology:LifecycleData ;
+            owl:someValuesFrom [ a rdfs:Datatype ;
+                    owl:onDatatype xsd:integer ;
+                    owl:withRestrictions ( [ xsd:minExclusive 3 ] [ xsd:maxInclusive 4 ] ) ] ] .
+
+myontology:UseCycleData a owl:DatatypeProperty .
+
+myontology:ruleNormGovern a owl:ObjectProperty ;
+    rdfs:label "Governs" ;
+    osmethodology:related_rabbit_sentence "Governs is a relationship." .
+
+myontology:Action a owl:Class ;
+    rdfs:label "Action" ;
+    osmethodology:natural_language_description "Goal orientated actions that contributes to the attainment of the motive for the activity.  [Engeström, Miettinnen et al. 1999]" ;
+    osmethodology:related_rabbit_sentence "Action is a concept.",
+        "Every Action has Goal.",
+        "Every Action has Operation.",
+        "Every Action is part of Activity." ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty myontology:hasOperation ;
+            owl:someValuesFrom myontology:Operation ],
+        [ a owl:Restriction ;
+            owl:onProperty myontology:isPartOfActivity ;
+            owl:someValuesFrom myontology:Activity ],
+        [ a owl:Restriction ;
+            owl:onProperty myontology:hasGoal ;
+            owl:someValuesFrom myontology:Goal ],
+        owl:Thing .
+
+myontology:Address a owl:Class ;
+    rdfs:subClassOf myontology:Outcome,
+        myontology:Recycled_Product .
+
+myontology:NonFunctional a owl:Class ;
+    rdfs:subClassOf myontology:Post_Use_Activity .
+
+myontology:Motivation a owl:Class ;
+    rdfs:label "Motivation"@en ;
+    osmethodology:related_rabbit_sentence "Motivation is a concept.",
+        "Motivation usually has an Emotion." ;
+    rdfs:subClassOf owl:Thing .
+
+myontology:Community a owl:Class ;
+    rdfs:label "Community"@en ;
+    osmethodology:natural_language_description "Community influences Subject and Object. [Stan Karanasios]",
+        "Individuals or groups other than the subject who have some general objects and with whom the subject interacts.  [Engeström, Miettinnen et al. 1999]" ;
+    osmethodology:related_rabbit_sentence "Community and Subject are mutually exclusive.",
+        "Community is a concept.",
+        "Every Community influences Object.",
+        "Every Community influences Subject.",
+        "Every Community is a kind of Individual or Group." ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty myontology:communityInfluence ;
+            owl:someValuesFrom myontology:Object ],
+        [ a owl:Restriction ;
+            owl:onProperty myontology:communityInfluence ;
+            owl:someValuesFrom myontology:Subject ],
+        [ a owl:Class ;
+            owl:unionOf ( myontology:Group myontology:Person ) ],
+        owl:Thing ;
+    owl:disjointWith myontology:Subject .
+
+myontology:Cost a owl:Class ;
+    rdfs:subClassOf myontology:Components,
+        myontology:New_Product,
+        myontology:Outcome,
+        myontology:Recycled_Product .
+
+myontology:New_Product_Creation_Activity a owl:Class ;
+    rdfs:subClassOf myontology:Creation_Activity .
+
+myontology:Object a owl:Class ;
+    rdfs:label "Object"@en ;
+    osmethodology:related_rabbit_sentence """Every Object is anything that:
+  is a kind of Individual or Group or Physical Thing.""",
+        "Object is a concept." ;
+    rdfs:subClassOf owl:Thing .
+
+myontology:Reverse_Logistics_services a owl:Class ;
+    rdfs:subClassOf myontology:Post_Use_Activity .
+
+myontology:Recycling_Technologies a owl:Class ;
+    rdfs:subClassOf myontology:Tool .
+
+myontology:Collaborators a owl:Class ;
+    rdfs:subClassOf myontology:Group .
+
+myontology:Operation a owl:Class ;
+    rdfs:label "Operation"@en ;
+    osmethodology:natural_language_description "Typically unconscious or routinised behaviour that takes place with each action. Operations may become actions if they become concious.  [Engeström, Miettinnen et al. 1999]" ;
+    osmethodology:related_rabbit_sentence "Operation is a concept." ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty myontology:isPartOfAction ;
+            owl:someValuesFrom myontology:Action ],
+        owl:Thing .
+
+myontology:Recycled_Product a owl:Class ;
+    rdfs:subClassOf myontology:Outcome .
+
+myontology:Manufacturing_Equipment a owl:Class ;
+    rdfs:subClassOf myontology:Tool .
+
+myontology:Manufacturing_Technologies a owl:Class ;
+    rdfs:subClassOf myontology:Tool .
+
+myontology:Tool a owl:Class ;
+    rdfs:label "Tool"@en ;
+    osmethodology:related_rabbit_sentence "A Tool is a concept." ;
+    rdfs:subClassOf owl:Thing .
+
+myontology:Subject a owl:Class ;
+    rdfs:label "Subject"@en ;
+    osmethodology:natural_language_description "The individual of group who undertakes the activity. [Stan Karanasios]" ;
+    osmethodology:related_rabbit_sentence """A Subject is anything that:
+  is a kind of Individual or Group;
+  undertakes an Activity.""",
+        "Every Subject has at least one Motivation.",
+        "Every Subject interacts with Community.",
+        "Every Subject interacts with at least one Object.",
+        "Every Subject uses Tools.",
+        "Subject is a concept." ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty myontology:interactWith ;
+            owl:someValuesFrom myontology:Community ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onClass myontology:Motivation ;
+            owl:onProperty myontology:subjectHasMotivation ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onClass myontology:Object ;
+            owl:onProperty myontology:interactWith ],
+        [ a owl:Restriction ;
+            owl:onProperty myontology:subjectUsesTool ;
+            owl:someValuesFrom myontology:Tool ],
+        owl:Thing ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( [ a owl:Class ;
+                        owl:unionOf ( myontology:Group myontology:Person ) ] [ a owl:Restriction ;
+                        owl:onProperty myontology:undertake ;
+                        owl:someValuesFrom myontology:Activity ] ) ] .
+
+myontology:Activity a owl:Class ;
+    rdfs:label "Activity"@en ;
+    osmethodology:natural_language_description "It's a human, individual or collective activity driven by a motive. Every activity has rules and norms, division of labour, tools, a subject, object and community and an outcome. [Stan Karanasios]" ;
+    osmethodology:related_rabbit_sentence "Activity is a concept.",
+        "Every Activity has Division of Labour.",
+        "Every Activity has Motivation.",
+        "Every Activity has Outcome.",
+        "Every Activity has Rules & Norms.",
+        "Every Activity has at least one Object.",
+        "Every Activity has at least one Subject.",
+        "Every Activity has at least one Tool.",
+        "Every Activity is defined by a Activity Viewpoint that is viewpoint of Subject." ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty myontology:hasAction ;
+            owl:someValuesFrom myontology:Action ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onClass myontology:Tool ;
+            owl:onProperty myontology:hasTool ],
+        [ a owl:Restriction ;
+            owl:onProperty myontology:isDefinedBy ;
+            owl:someValuesFrom [ a owl:Class ;
+                    owl:intersectionOf ( myontology:Activity_Viewpoint [ a owl:Restriction ;
+                                owl:onProperty myontology:isViewpointOf ;
+                                owl:someValuesFrom myontology:Subject ] ) ] ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onClass myontology:Object ;
+            owl:onProperty myontology:hasObject ],
+        [ a owl:Restriction ;
+            owl:onProperty myontology:hasRuleNorm ;
+            owl:someValuesFrom myontology:Rule_Norm ],
+        [ a owl:Restriction ;
+            owl:onProperty myontology:activityHasMotivation ;
+            owl:someValuesFrom myontology:Motivation ],
+        [ a owl:Restriction ;
+            owl:onProperty myontology:hasOutcome ;
+            owl:someValuesFrom myontology:Outcome ],
+        [ a owl:Restriction ;
+            owl:onProperty myontology:hasDivisionOfLabour ;
+            owl:someValuesFrom myontology:Division_of_Labour ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onClass myontology:Subject ;
+            owl:onProperty myontology:hasSubject ],
+        owl:Thing .
+
+myontology:Outcome a owl:Class ;
+    rdfs:label "Outcome"@en ;
+    osmethodology:related_rabbit_sentence "Outcome is a concept." ;
+    rdfs:subClassOf owl:Thing,
+        myontology:New_Product_Creation_Activity,
+        myontology:Post_Use_Activity .
+
+owl:Thing a owl:Class .
+
+myontology:Components a owl:Class ;
+    rdfs:subClassOf myontology:New_Product,
+        myontology:Outcome,
+        myontology:Recycled_Product .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( myontology:Activity myontology:Address myontology:Components myontology:Condition myontology:Cost myontology:Description myontology:ID myontology:Model myontology:Name myontology:New_Product myontology:Price myontology:Rating ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( myontology:Collection myontology:Energy myontology:Incentives myontology:Labour myontology:Materials ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( myontology:Educational_Background myontology:Manufacturing_Equipment myontology:Manufacturing_Experience myontology:Manufacturing_Technologies myontology:Marketing_Experience myontology:Phone_Call myontology:Social_mdeia myontology:Websites ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( myontology:Certification myontology:Collection_point myontology:Distributor myontology:Provider myontology:Rating myontology:Warehouse <https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Free/Incentive/cost> <https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Yes/No> ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( myontology:Cascade myontology:Recycling myontology:Remanufacture myontology:Repair ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( myontology:Assembly myontology:Casing myontology:ControllerChip myontology:Cost myontology:Description myontology:Heaating myontology:ID myontology:InternalStructure myontology:LifeCycle myontology:Model myontology:Name myontology:PowerSuupply myontology:Price myontology:Pump myontology:Usecycle ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( myontology:Materials_from_supplier myontology:Transport_from_warehouse myontology:Transport_inside_warehouse myontology:Transport_to_warehouse myontology:Transport_toplant myontology:Utilities_at_plant myontology:Utilities_at_warehouse ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( myontology:Community myontology:Division_of_Labour myontology:Rule_Norm <https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Resources/Materials> ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( myontology:City myontology:House_Number myontology:Post_Code myontology:Street ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( myontology:Educational_Background myontology:Manufacturing_Equipment myontology:Manufacturing_Experience myontology:Manufacturing_Technologies myontology:Marketing_Experience myontology:Phone_Call myontology:Recycling_Technologies myontology:Social_mdeia myontology:Websites ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( myontology:Bricks_and_Inert_Waste_Recycling myontology:Clothing_and_Textile myontology:Glass_Recycling myontology:Metal_Recycling myontology:Plastic_Recycling myontology:Waste_Paper_and_Cardboard myontology:Wood_Recycling <https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#WEEE_Recycling_(Electronic_Devices)> ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( myontology:Chemical_Recycling myontology:Manomer_Recovery myontology:Mechanical_Recycling ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( myontology:Analytical_Instrumentation myontology:Cutting_Machines myontology:Die_casting_machines myontology:Electronics_production_machines myontology:Extrusion_machines myontology:Handling_and_Lifting myontology:Industrial_3D_printers myontology:Laser_sintering_machines myontology:Molding_machines myontology:Wood_saws ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( myontology:Academic_Reseachers myontology:Employees myontology:End_users myontology:Equipment_Suppliers myontology:Government myontology:Online_Communities myontology:Organizations myontology:Raw_Materials_Suppliers myontology:Shareholders myontology:Society myontology:Stakeholders ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( myontology:Materials_from_supplier myontology:Outcome myontology:Transport_from_warehouse myontology:Transport_inside_warehouse myontology:Transport_to_warehouse myontology:Transport_toplant myontology:Utilities_at_plant myontology:Utilities_at_warehouse ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( myontology:Cost myontology:Description myontology:ID myontology:LifeCycle myontology:Model myontology:Name myontology:Price myontology:Usecycle ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( myontology:AI myontology:Augmented_Reality myontology:Big_Data myontology:Cloud_manufacturing myontology:Cyber-Physical_Systems myontology:Industry_4.0 myontology:IoT myontology:Nanotechnology myontology:Smart_Manufacturing myontology:3D_Printing ) .
+
