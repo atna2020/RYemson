@@ -453,15 +453,135 @@ Vania Dimitrova</dc:creator>
     
 
 
+    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#ClassNameComponent -->
+
+    <owl:DatatypeProperty rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#ClassNameComponent"/>
+    
+
+
+    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#ClassOfProduct -->
+
+    <owl:DatatypeProperty rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#ClassOfProduct"/>
+    
+
+
+    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#ComponentClass -->
+
+    <owl:DatatypeProperty rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#ComponentClass"/>
+    
+
+
+    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#DayofUsage -->
+
+    <owl:DatatypeProperty rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#DayofUsage"/>
+    
+
+
+    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#DuarabilityLifec -->
+
+    <owl:DatatypeProperty rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#DuarabilityLifec"/>
+    
+
+
+    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#DurabilityUseC -->
+
+    <owl:DatatypeProperty rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#DurabilityUseC"/>
+    
+
+
+    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#DurationOfUsage -->
+
+    <owl:DatatypeProperty rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#DurationOfUsage"/>
+    
+
+
+    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#EXPD -->
+
+    <owl:DatatypeProperty rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#EXPD"/>
+    
+
+
+    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#EndTime -->
+
+    <owl:DatatypeProperty rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#EndTime"/>
+    
+
+
+    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#EntireLifecycle -->
+
+    <owl:DatatypeProperty rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#EntireLifecycle"/>
+    
+
+
     <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#LifecycleData -->
 
     <owl:DatatypeProperty rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#LifecycleData"/>
     
 
 
+    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#LifecyclePer -->
+
+    <owl:DatatypeProperty rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#LifecyclePer"/>
+    
+
+
+    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#MFD -->
+
+    <owl:DatatypeProperty rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#MFD"/>
+    
+
+
+    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#MeanToFailureCycle -->
+
+    <owl:DatatypeProperty rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#MeanToFailureCycle"/>
+    
+
+
+    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#NameOfPClass -->
+
+    <owl:DatatypeProperty rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#NameOfPClass"/>
+    
+
+
+    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#PotentialROSProduct -->
+
+    <owl:DatatypeProperty rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#PotentialROSProduct"/>
+    
+
+
+    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#PotentialReturnOnSales -->
+
+    <owl:DatatypeProperty rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#PotentialReturnOnSales"/>
+    
+
+
+    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#ProTemperature -->
+
+    <owl:DatatypeProperty rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#ProTemperature"/>
+    
+
+
+    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#StartTime -->
+
+    <owl:DatatypeProperty rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#StartTime"/>
+    
+
+
+    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Temperature -->
+
+    <owl:DatatypeProperty rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Temperature"/>
+    
+
+
     <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#UseCycleData -->
 
     <owl:DatatypeProperty rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#UseCycleData"/>
+    
+
+
+    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#UsecyclePer -->
+
+    <owl:DatatypeProperty rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#UsecyclePer"/>
     
 
 
@@ -2053,125 +2173,6 @@ Vania Dimitrova</dc:creator>
     <owl:Class rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Yes/No">
         <rdfs:subClassOf rdf:resource="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Reverse_Logistics_services"/>
     </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Pump1 -->
-
-    <owl:NamedIndividual rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Pump1">
-        <myontology:LifecycleData rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9000</myontology:LifecycleData>
-        <myontology:UseCycleData rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</myontology:UseCycleData>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Pump10 -->
-
-    <owl:NamedIndividual rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Pump10">
-        <myontology:LifecycleData rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</myontology:LifecycleData>
-        <myontology:UseCycleData rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15000</myontology:UseCycleData>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Pump11 -->
-
-    <owl:NamedIndividual rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Pump11">
-        <myontology:LifecycleData rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.2</myontology:LifecycleData>
-        <myontology:UseCycleData rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12000</myontology:UseCycleData>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Pump12 -->
-
-    <owl:NamedIndividual rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Pump12">
-        <myontology:LifecycleData rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</myontology:LifecycleData>
-        <myontology:UseCycleData rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16500</myontology:UseCycleData>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Pump2 -->
-
-    <owl:NamedIndividual rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Pump2">
-        <myontology:LifecycleData rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.5</myontology:LifecycleData>
-        <myontology:UseCycleData rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14500</myontology:UseCycleData>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Pump3 -->
-
-    <owl:NamedIndividual rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Pump3">
-        <myontology:LifecycleData rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.2</myontology:LifecycleData>
-        <myontology:UseCycleData rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15502</myontology:UseCycleData>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Pump4 -->
-
-    <owl:NamedIndividual rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Pump4">
-        <myontology:LifecycleData rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</myontology:LifecycleData>
-        <myontology:UseCycleData rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10000</myontology:UseCycleData>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Pump5 -->
-
-    <owl:NamedIndividual rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Pump5">
-        <myontology:LifecycleData rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</myontology:LifecycleData>
-        <myontology:UseCycleData rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14600</myontology:UseCycleData>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Pump6 -->
-
-    <owl:NamedIndividual rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Pump6">
-        <myontology:LifecycleData rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</myontology:LifecycleData>
-        <myontology:UseCycleData rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15539</myontology:UseCycleData>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Pump7 -->
-
-    <owl:NamedIndividual rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Pump7">
-        <myontology:LifecycleData rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</myontology:LifecycleData>
-        <myontology:UseCycleData rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8500</myontology:UseCycleData>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Pump8 -->
-
-    <owl:NamedIndividual rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Pump8">
-        <myontology:LifecycleData rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</myontology:LifecycleData>
-        <myontology:UseCycleData rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7800</myontology:UseCycleData>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Pump9 -->
-
-    <owl:NamedIndividual rdf:about="https://jsmboli.github.io/jsmboli/ontologies/myontology.owl#Pump9">
-        <myontology:LifecycleData rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</myontology:LifecycleData>
-        <myontology:UseCycleData rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13500</myontology:UseCycleData>
-    </owl:NamedIndividual>
     
 
 
