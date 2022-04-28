@@ -455,7 +455,7 @@
                       </ul>
                     </div>
                   </div>
-
+			<!--
                   <div class="col-xs-12 col-sm-6">
                     <div class="block-title">
                       <h2>Media Coverage</h2>
@@ -463,7 +463,7 @@
   
                     <div class="ci-text">
                       <!-- <h4>Media Coverage</h4> -->
-                                           <ul>
+          <!--                                 <ul>
                       <p><li><a href="https://www.youtube.com/watch?v=C6mIOTkGxt0&feature=emb_logo">Interview at Capitol Hill, Washington DC, USA</a></li></p>
                       </ul>
                       </p></p> 
