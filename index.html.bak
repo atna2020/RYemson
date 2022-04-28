@@ -116,7 +116,7 @@
                             <h1>Julius S. Mboli</h1>
                             <div class="owl-carousel text-rotation">                                    
                               <div class="item">
-                                <h4>IoT Innovation Lab</h4>
+                                <h4> Internet of Things (IoT) Innovation Lab</h4>
                               </div>
 
                               <div class="item">
@@ -174,22 +174,31 @@
       
                         <div class="ci-text">
                           <!-- <h4>Copywrite</h4> -->
-                          <p>I am a post-doctoral research scholar in the Computational Research Division(CRD) working on the <a href="https://sites.google.com/lbl.gov/daphne/home?authuser=0" target="new"> Deep Learning and Artificial Intelligence High-Performance Networks(DAPHNE)</a> project under the supervision of <a href="http://es.net/about/esnet-staff/advanced-network-technologies/mariam-kiran/" target="new"> Mariam Kiran </a> of Energy Sciences Network(Esnet) and <a href="https://crd.lbl.gov/departments/data-science-and-technology/sdm/staff/wu/" target="new"> John Wu</a>  at Berkeley Lab. I received my (MSc) in <a href="https://www.sheffield.ac.uk/acse/current/masters/controlsystems/index" target="new">Control Systems Engineering</a> under the supervision of <a href="https://en.wikipedia.org/wiki/Peter_J._Fleming" target="new">Professor Peter J Fleming</a> from the  <a href="http://www.sheffield.ac.uk/" target="new">University of Sheffield,</a> and a PhD in Computer Science from the  <a href="http://www.bradford.ac.uk/external/" target="new">University of Bradford</a> in the United Kingdom under the supervision of <a href="https://www.bradford.ac.uk/staff/iuawan" target="new">Professor Irfan Awan</a> and <a href="https://www.bradford.ac.uk/staff/hugail" target="new">Professor Hassan Ugail</a>. I am currently developing AI and Machine Learning algorithms to control high-speed networks such as to avoid data traffic congestion, degraded network performance and network downtime for important Science Bigfile Transfers and experiments.
-                            My method will lead to minimizing network downtime, save US department of Energy (DOE) millions of dollars on equipment cost, and free engineers to work on science experiments. My research contributed to the core network research and operations with my strong background in HPC and cloud where I developed and built these infrastructures during my PhD (<a href="https://www.bradford.ac.uk/news/archive/2016/bradford-computer-scientists-on-cloud-nine.php" target="new">Bradstack</a>).
-                            </p>
+                          <p>Played dual academic and administrative roles at both University of Bradford, UK and Taraba State University, Nigeria. 
+						  I carefully prepared lecture materials and delivered same on circular economy with minimal supervision to MSc students. 
+						  I also prepared course materials and delivered series of lectures on Concurrent and Distributed Systems. 
+						  My role in the University of Bradford also includes Teaching Assistants (TA) which involves teaching and demonstration for BSc Computer Science, 
+						  BSc Computer Science for Cyber Security, BEng Software Engineering: Internet Technologies.
+						  Highly skilled in interdisciplinary research, AI, IoT and machine learning techniques for business, scientific and social research methodologies.
+						  Able to develop own lesson plans, schemes of work and all required resources, ensuring differentiation always.
+						  So, my extensive key skills include teaching and research skills in cutting-edge technologies, business, and management disciplines.</p>
+						  
+						  <p> At Taraba State University, apart from developing materials for, and teaching Engineering and Mathematical Courses for BEng Electrical and Electronics Engineering, 
+						  I also worked as the faculty of Engineering examination and timetable officer, faculty representative and other administrative positions. </P>
 
                             <h4>Research Interest</h4>
-                          <p>My research is focused on enabling the design of intelligent networks that allows improved reliability for exascale scientific workflows.
-                          I am working on building robust networks through the use of machine‐learning‐based approaches, cloud computing, and software‐defined networks (SDN). This couples deep learning methods with SDN for predicting real‐time network behaviour, avoiding data traffic congestion and degraded network performance.
+                          <p>My research is focused on enabling the design of intelligent and smart business model for Circular Economy that enables smooth transition from linear to circular economy.
+                          I am working on building robust business model that can serve as decisions support systems (DSS) through the use of machine‐learning‐based approaches, semantic technologies, fuzzy logic, Internet of Things(IoT) and Artificial intelligence (AI). 
+						  This will rely on these techniques  for predicting real‐time tracking and analysis of product, to monitor durability and failure, which can help businesses to carry out predictive maintenance, product return pridiction, logistics optimization and so.
                           My research interest lies at the intersection between network systems, control systems, and machine learning..</p>
-                          <h4>My current research interest(This is to say but few.)</h4>
+                          <h4>My current research interest</h4>
                           <ul>
-                            <p></p><li>Real-time Machine Learning Control and Reinforcement Learning in High Speed Networks</li><p></p>
-                            <p></p><li>Deep Reinforcement Learning in High Speed Networks</li><p></p>
-                            <p></p><li>Developing Machine Learning algorithm for large-scale distributed networks </li><p></p>
-                            <p></p><li>Failure Prediction and Performance related issues on Cloud and HPC systems</li><p></p>
-                            <p></p><li>Cloud Platform implementation (<a href="https://www.chameleoncloud.org/" target="new">Chameleon Cloud</a>, <a href="https://www.geni.net//" target="new">GENI (Global Environment for Network Innovations)</a>, <a href="https://www.openstack.org/" target="new">Openstack</a>, <a href="https://aws.amazon.com/" target="new">AWS</a>, <a href="https://azure.microsoft.com/en-us/free/?&wt.mc_id=AID_SEM_" target="new">Microsoft Azure</a>, <a href="https://cloud.google.com/?utm_source=google&utm_medium=cpc&utm_campaign=2015-q1-cloud-emea-gcp-bkws-freetrial-en&gclid=CjwKEAiAkajDBRCRq8Czmdj-yFgSJADikZgglIPUtplYqW5bYu00onDbTK-RT2SlWAUIyUcobJV_3hoCsC3w_wcB&dclid=CLrm7s6Vo9ECFZmMdwodIDcASQ" target="new">Google Cloud Platform</a>)</li><p></p>
-                            <p></p><li>Automatic Control systems</li><p></p>
+                            <p></p><li>Real-time Machine Learning for Business Intelligence</li><p></p>
+                            <p></p><li>Semantics Technologies and Fuzzy logic for  Business Analytics</li><p></p>
+                            <p></p><li>Artificial Intelligence and Explainable AI. </li><p></p>
+                            <p></p><li>Products Failure Prediction and Performance related issues</li><p></p>
+                            <p></p><li>Graph Databases</li><p></p>
+                            <p></p><li>Technology-Based Decisions Support Systems (DSS) </li><p></p>
                           </ul>
                         </div>
                       </div>
@@ -220,18 +229,14 @@
                         <div class="ci-text">
                           <!-- <h4>Copywrite</h4> -->
                           <ul>
-                            <p></p><li> <a href="https://slam.lbl.gov/about-the-slam/2019-slam/2019-slam-summary" target="new"> Second 2nd Place Winner, </a>  (out of 42 contenstants) at the <a href="https://slam.lbl.gov/about-the-slam/2019-slam/2019-slam-summary" target="new">Berkeley Lab Research SLAM</a> for Early Career Scientists and Postdocs at the <a href="https://www.lbl.gov/" target="new">Lawrence Berkeley National Laboratory, Berkeley California, USA</a>, Sept. 19th 2019</li><p></p>
+							<p></p><li>PTDF Scholarship Award (Prestigious) for PhD study in Computer Science at the <a href="http://www.bradford.ac.uk/external/" target="new">University of Bradford</a>, 2017-2022</li><p></p>
+							<p></p><li>Full Grants forl <a href="https://ai4industry.sciencesconf.org/" target="new">Summer School on Smart cities for a Sustainable Energy Future - From Design to Practice</a>,at TU-Berlin Germany August 2019 2019</li><p></p>
+							<p></p><li>Full Grants for <a href="https://www.simula.no/education/courses/summer-school-smart-cities-sustainable-energy-future-design-practice" target="new">Summer School on AI for Industry 4.0 SAINT-ÉTIENNE, FRANCE September</a>, 2020</li><p></p>
+							<p></p><li>Full Grants for <a href="https://www.eventbrite.co.uk/e/3rd-commnet2-phd-spring-school-focus-on-energy-efficiency-tickets-45646675435?utm_source=eb_email&utm_medium=email&utm_campaign=reminder_attendees_48hour_email&utm_term=eventname" target="new">3rd CommNet2 PhD Spring School: Focus on Energy Efficiency</a>, Sheffield, UK, 2018.</li><p></p>
+							<p></p><li>Full Grants for <a href="https://www.eventbrite.co.uk/e/2nd-commnet2-phd-spring-school-focus-on-security-tickets-43879768569?utm_source=eb_email&utm_medium=email&utm_campaign=order_confirmation_email&utm_term=eventname&ref=eemailordconf" target="new">2nd CommNet2 PhD Spring School: Focus on Security</a>, Surrey, UK, 2018.</li><p></p>
+							<p></p><li>Prestigious NITDA Scholarship Award for MSc in Computer Science at <a href="http://www.bradford.ac.uk/external/" target="new">University of Bradford</a> 2014-2015</li><p></p>
+							<p></p><li>Best academic Student in the department of Electrical and Electronics Engineering</li><p></p>
                             
-                            <p></p><li> <a href="https://slam.lbl.gov/about-the-slam/2019-slam/2019-finalists" target="new">  Finalist, </a>  at the <a href="https://slam.lbl.gov/about-the-slam/2019-slam/2019-finalists" target="new">Berkeley Lab Research SLAM</a> for Early Career Scientists and Postdocs at <a href="https://www.lbl.gov/" target="new"> Lawrence Berkeley National Laboratory, Berkeley California, USA.</a>, Aug. 1st 2019</li><p></p>
-                            
-                            <p></p><li> Awarded a Travel grant to deliver a talk and a demo at MERIT 2019, <a href="https://icnp19.cs.ucr.edu/meritprogram.html" target="new">An NSF sponsored workshop at the 27th IEEE International Conference on Network Protocols (ICNP 2019)</a> Oct.2019</li><p></p>
-                                
-
-                            <p></p><li>PTDF Scholarship Award for PhD study in Computer Science at the <a href="http://www.bradford.ac.uk/external/" target="new">University of Bradford</a>, 2014-2018</li><p></p>
-                            <p></p><li>PTDF Scholarship Award for MSc. study in <a href="https://www.sheffield.ac.uk/acse/current/masters/controlsystems/index" target="new">Control Systems Engineering</a> from the <a href="http://www.sheffield.ac.uk/" target="new">University of Sheffield</a>, 2010-2012</li><p></p>
-                            <p></p><li><a href="http://www.rolls-royce.com/" target="new">Rolls Royce</a> Intern with <a href="https://www.sheffield.ac.uk/acse/research/centres/rolls-royce" target="new">Rolls Royce UTC Sheffield</a> on Combustor Temperature measurement in Gas Turbine Engines.</li><p></p> 
-                            <p></p><li>Total Fina Elf Second Year University Undergraduate Scholarship 2003-2006<p></p>
-                            <p></p><li>FGN First Year University Undergraduate Scholarship 2001-2002<p></p>
                           </ul>
                         </div>
                       </div>
@@ -263,37 +268,28 @@
                           <!-- <h4>Copywrite</h4> -->
                           <ul>
                               
-                                                            
-                             <p></p><li>Research Poster Committee Member  - <a href="https://sc20.supercomputing.org/" target="new"> SC'2020 : The International Conference for High Performance Computing, Networking, Storage and Analysis. SC'2020  </a></li><p></p>
+                             <p></p><li>Conference Organising Committee Member  - <a href="https://www.bradford.ac.uk/ei/research-and-business/aierc-2022/" target="new"> 4th Annual Innovative Engineering Research Conference (AIERC) </a></li><p></p>                              
+                             <p></p><li>Conference Organising Committee Member (Technical Support)  - <a href="https://www.bradford.ac.uk/ei/chemical-engineering/chemengdayuk2021/" target="new"> ChemEngDayUK 2021 Making Knowledge Work</a></li><p></p>
+							 <p></p><li>Research Poster Committee Member  - <a href="https://www.bradford.ac.uk/ei/research-and-business/aierc-2022/" target="new"> 3rd Annual Innovative Engineering Research Conference (AIERC)  </a></li><p></p>
+                            <p></p><li>Conference Organising Committee Member - <a href="https://link.springer.com/book/10.1007/978-3-030-77385-4" target="new"> ESWC: European Semantic Web Conference</a></li><p></p>
+							  
+                            <p></p><li>Reviewer - <a href="https://content.iospress.com/articles/semantic-web/sw200407?resultNumber=0&totalResults=3631&start=0&q=Semantic+Web+of+Things+for+Industry+4.0&resultsPageSize=10&rows=10" target="new">Semantic Web Journal: Semantic Web of Things for Industry 4.0 (Special Issue) </a></li><p></p>
+							 
+							<p></p><li>Reviewer - <a href="https://www.mdpi.com/journal/applsci/sections/computing_artificial_intelligence" target="new">Applied Sciences Journal: Computing and Artificial Intelligence </a></li><p></p>
                               
-                             <p></p><li>Reviewer - <a href="https://onlinelibrary.wiley.com/journal/1097024x" target="new">Journal of Software: Practice and Experience, Wiley Online Library 2020 - Present. </a></li><p></p>
-                              
-                              <p></p><li>Reviewer - <a href="https://onlinelibrary.wiley.com/journal/10991131" target="new">International Journal of Communication Systems, Wiley Online Library 2020 - Present. </a></li><p></p>
-                              
-                              <p></p><li>Reviewer - <a href="https://www.computer.org/csdl/journal/sc" target="new">IEEE’s Transactions on Services Computing. 2017 - Present.</a></li><p></p> 
-                              
-                             <p></p><li>Session Chair - <a href="http://www.ficloud.org/2017/" target="new">ICI Symposium. ICI Session 2:Intercloud and IoT 2, (FICLOUD 2017) Prague, Czech Republic, August 2017</a></li><p></p>
-                              
-                              <p></p><li>Reviewer - <a href="http://www.ficloud.org/2017/" target="new">The 5th International Conference on Future Internet of Things and Cloud (FICLOUD2017), Prague, Czech Republic. 2017 - Present.</a></li><p></p> 
-                              
-                              <p></p><li>Programme Committee Member- <a href="http://www.ficloud.org/2017/" target="new">The 5th International Conference on Future Internet of Things and Cloud (FICLOUD2017), Prague, Czech Republic, August 2017.</a></li><p></p> 
-                              
-                            <p></p><li>Network IT Support Analyst, Information Technology Department. <a href="http://www.leedstrinity.ac.uk/" target="new">Leeds Trinity University</a>, United Kingdom. - 2017 </li><p></p>
-                              
-                            <p></p><li>Programme Committee Member - <a href="http://computing.brad.ac.uk/ukpew2016/" target="new">32nd Annual UK Performance Engineering Workshop & Cyber Security Workshop  (UKPEW & CyberSecW - 2016)</a></li><p></p>
-                              
-                              <p></p><li>Programme Committee Member - <a href="http://www.ficloud.org/2016/" target="new">The 4th International Conference on Future Internet of Things and Cloud (FICLOUD   2016), Vienna, Austria, August 2016</a></li><p></p>
-                              
-                            <p></p><li>Treasurer, <a href="http://www.bradford.ac.uk/external/" target="new">University of Bradford</a> ACM Student Chapter - 2016 </a></li><p></p>
-                          
+							<p></p><li>Conference Session Chair - <a href="https://link.springer.com/book/10.1007/978-3-030-77385-4" target="new"> 18th International Conference, ESWC 2021, Virtual Event, June 6–10, 2021 </a></li><p></p>
+								
+							<p></p><li>Engineer, <a href="https://www.coren.gov.ng/" target="new">Council for the Regulation of Engineering in Nigeria</a></a></li><p></p>	
+							
+												
                             <p></p><li>Member, <a href="https://www.acm.org/" target="new">Association of Computing Machinery (ACM)</a></a></li><p></p>
                             <p></p><li>Member, <a href="https://www.ieee.org/index.html" target="new">Institute of Electrical and Electronics Engineers (IEEE)</a>. </li><p></p>
+							
+							<p></p><li>Engineer, <a href="https://www.nse.org.ng/" target="new">Nigerian Society of Engineers</a></a></li><p></p>
+							
                             <p></p><li>Member, <a href="https://www.ieee.org/index.html" target="new">The Institution of Engineering and Technology  (IET)</a>. </li><p></p>
                             <p></p><li>Member, <a href="https://www.computer.org/" target="new"> IEEE Computer Society</a></li><p></p>
-                            
-                            <p></p><li>Member, the <a href="http://www.bcs.org/" target="new">Chartered Institute of IT</a> formerly knows as <a href="http://www.bcs.org/" target="new">British Computer Society (BCS)</a></li><p></p>
-
-                            
+                           
                           </ul>
                         </div>
                       </div>
@@ -321,29 +317,45 @@
 
                     <div id="timeline_1" class="timeline clearfix">
                       <div class="timeline-item clearfix">
-                        <h5 class="item-period ">2018</h5>
-                        <span class="item-company"><a href="http://www.leedstrinity.ac.uk//" target="new">Leeds Trinity University</a>, UK</span>
+                        <h5 class="item-period ">2022</h5>
+                        <span class="item-company"><a href="https://www.bradford.ac.uk/external/" target="new"> University of Bradford </a>, UK</span>
                         <h4 class="item-title"></h4>
-                        <p>Module leader for the Higher Education Funding Council of England (HEFCE) course on introduction to programming.
-                        <p>Contributing to the academic development, course management, teaching and research development.
-                        <p>Teaching and mentoring Second year students.
-                        <p>Teaching Introduction to Programming, Human Computer Interaction (HCI).
-                        <p>Introduction to Coding using Python and Java.
-                        <p>Introduction to JavaScript, Change Management and Version Control using tools such as Visual Studio, Bracket, Code Academy, Code Pen, GitHub, and Glitch.
+                        <p><b>Lecturer in Concurrent and Distributed Systems for Final Year Students</b>.
+                        <p>Teaching distributed system (DS).
+                        <p>Teaching Introduction to cloud computing  and its enabling technologies.
+                        <p>Teaching Message Passing Interface and coding in Java and C/C++
+                        <p>Introduction to Introduction to OpenStack.
+						<p>Teaching Cloud Resource Management and Simulation.
+						<p>Experience of interactive learning sessions via kahoot live to teach in class and remotely and/or assign a student-paced challenge.
+						<p> Experience of engaging students via Canvas, <a href="https://www.sli.do/" target="new">Slido</a>, <a href="https://www.mentimeter.com/" target="new">Mentimeter</a>, <a href="https://doodle.com/en/" target="new">Doodle</a>, <a href="https://docs.google.com/forms/u/0/" target="new">Google Forms</a>, and <a href="https://www.office.com/launch/forms?auth=2" target="new">Microsoft Forms </a> for various learning and teaching activities.
+						<p><b>Teaching Assistant (TA), Internet Technologies for Year One Students.</b>
+                      </div>
+					  
+					  
+					  <div class="timeline-item clearfix">
+                        <h5 class="item-period current">2022</h5>
+                        <span class="item-company"><a href="https://www.hull.ac.uk/" target="new">University of Hull</a>, UK</span>
+                        <h4 class="item-title"></h4>
+                        <p>Visiting Lecturer on Circular Economy, Circular Supply chain and Technologies </p>
+						<p>Understanding Circular Economy (CE).
+						<p>Understand Circular Supply Chain (CSC) and why CSC is important.
+						<p>Appreciating the uptake of Circular Economy and Circular Supply chain with the help of use cases.
+						<p>Analysing how technologies are utilised to make Circular Economy a possibility.
+
                       </div>
 
                       <div class="timeline-item clearfix">
-                        <h5 class="item-period current">2017</h5>
+                        <h5 class="item-period current">2021</h5>
                         <span class="item-company"><a href="http://www.bradford.ac.uk/external/" target="new">University of Bradford</a>, UK</span>
                         <h4 class="item-title"></h4>
-                        <p>2016-7 ACYR - Cisco Routing and Switching Labs, Computer Communication and Networks (CCN) For 2nd Year  Undergraduate Students.</p>
+                        <p>Teaching Assistant (TA), Internet Technologies for Year One Students.</p>
                       </div>
 
                       <div class="timeline-item clearfix">
-                        <h5 class="item-period ">2016</h5>
+                        <h5 class="item-period ">2020</h5>
                         <span class="item-company"><a href="http://www.bradford.ac.uk/external/" target="new">University of Bradford</a>, UK</span>
                         <h4 class="item-title"></h4>
-                        <p>COS5010-B- Computer Communication and Networks (CCN) For 2nd Year  Undergraduate Students.</p>
+                        <p>Teaching Assistant (TA), Internet Technologies for Year One Students.</p>
                       </div>
 
                     </div>
@@ -356,18 +368,35 @@
 
                     <div id="timeline_2" class="timeline clearfix">
                       <div class="timeline-item clearfix">
-                        <h5 class="item-period ">2016</h5>
+                        <h5 class="item-period ">2019</h5>
                         <span class="item-company"><a href="http://www.bradford.ac.uk/external/" target="new">University of Bradford</a>, UK</span>
                         <h4 class="item-title"></h4>
-                        <p>CM-1066D- Networks and Protocols For MSc Students in Network and Cyber Security</p>
+                        <p>Teaching Assistant (TA), Internet Technologies for Year One Students.</p>
                       </div>
 
                       <div class="timeline-item clearfix">
-                        <h5 class="item-period ">2015</h5>
+                        <h5 class="item-period ">2019</h5>
                         <span class="item-company"><a href="http://www.bradford.ac.uk/external/" target="new">University of Bradford</a>, UK</span>
                         <h4 class="item-title"></h4>
-                        <p>CM-0228L - Software Engineering with Group Projects (SEGP)- For 2nd Year  Undergraduate Students.</p>
+                        <p>Teaching Assistant (TA), Advanced Internet of Things (Data Science For Internet of Things).</p>
+						<p> IoT Data Handling Advanced IoT.
+						<p> Time series analysis with R. 
+						<p> Dealing with Messy IoT data.
+						<p> Dealing with Messy IoT data
+						<p> IoT real-time streaming with Apache Flink
+						<p> IoT real-time streaming with Apache Flink: Programming Model
+						<p> IoT Data & Complex Event Processing (CEP) with Apache Flink
+						 
                       </div>
+					  
+					  <div class="timeline-item clearfix">
+                        <h5 class="item-period ">2017</h5>
+                        <span class="item-company"><a href="https://www.tsuniversity.edu.ng/" target="new">Taraba State University</a>, Nigeria</span>
+                        <h4 class="item-title"></h4>
+                        <p> Assistant Lecturer in Engineering, Mathematical and Technological Courses.</p>
+						
+                      </div>
+					  
                     </div>
                   </div>
                 </div>
@@ -376,20 +405,53 @@
                 <div class="row">
                   <div class="col-xs-12 col-sm-6">
                     <div class="block-title">
-                      <h2>Professional Training and Certification</h2>
+                      <h2>Professional Training and Certifications</h2>
                     </div>
   
                     <div class="ci-text clearfix">
                       <!-- <h4>Professional Training and Certification</h4> -->
                       <ul>
-                        <p></p><li><a href="https://aws.amazon.com/" target="new">AWS</a> Technical Boot camp and Hands-on Lab at Amazon Web Services Summit Excel London UK- July 2016.</a></li><p></p>
-                        <p></p><li><a href="https://azure.microsoft.com/en-us/free/?&wt.mc_id=AID_SEM_" target="new">Microsoft Azure</a> for Research Training and Hands-on Lab at Microsoft Research Cambridge UK – May 2016</a></li><p></p>
-                        <p></p><li><a href="https://www.peoplecert.org/" target="new"> PEOPLECERT GROUP</a> (Official ITIL Accreditor) - ITIL Foundation Certificate in IT Service Management – August 2013.</li><p></p>
-                        <p></p><li>Learning & Teaching in Higher Education, <a href="https://www.advance-he.ac.uk/" target="new"> Associate Fellow of the Higher Education Academy (AFHEA)</a>, 2015-2016.</li><p></p>
-                        <p></p><li>Starting to Teach, <a href="http://www.bradford.ac.uk/external/" target="new">University of Bradford</a>, UK. Certificate Course - 2015</li><p></p>
-                        <p></p><li>Induction to Teaching, <a href="http://www.bradford.ac.uk/external/" target="new">University of Bradford</a>, UK. Certificate Course - 2015</li><p></p>
-                        <p></p><li>Marking, Assessment & Feedback, <a href="http://www.bradford.ac.uk/external/" target="new">University of Bradford</a>, UK. Certificate Course - 2015</li><p></p>
-                        <p></p><li>Diversity in the Workplace, <a href="http://www.bradford.ac.uk/external/" target="new">University of Bradford</a>, UK. Certificate Course - 2015</li><p></p>
+                        <p></p><li><a href="https://coursera.org/share/a3dfc552e0e73ef9c79d1ba6f27e40a3" target="new">IBM Data Analyst: </a> This IBM Professional Certificate is earned after successfully
+												completing 9 courses on various topics in Data Analytics. The learner
+													understands the core principles of data analysis and has worked
+													hands-on with a variety of data sources, project scenarios, and data
+													analysis tools, including Excel, SQL, Relational Databases, Python,
+													Jupyter Notebooks, and Cognos Analytics, gaining practical experience
+													with data manipulation, data analysis, and data visualization. The
+													earner of this Certificate has demonstrated proficiency in applying
+													different analytical techniques by analyzing real-world datasets,
+													creating visualizations & interactive dashboards, and presenting
+													reports to share findings of data analysis, and is now equipped with
+													skills for an entry-level role in data analytics.</a></li><p></p>
+                        <p></p><li><a href="https://www.coursera.org/learn/machine-learning-with-python/home/welcome" target="new">Machine Learning with Python</a> (In progress) </a></li><p></p>
+                        
+						<p></p><li>IBM, <a href="https://www.coursera.org/account/accomplishments/specialization/DEUX9CB7N5LV" target="new"> Data Analysis and Visualization Foundations</a>, 2021.</li><p></p>
+						
+						<p></p><li>IBM, <a href="https://coursera.org/share/698a6927affac82d8bee40b46d4d22f7" target="new"> Data Analysis with Python </a>, 2021.</li><p></p>
+						
+						<p></p><li>IBM, <a href="https://coursera.org/share/a564909539a79b8f08f9bc97d6afc9a7" target="new"> Data Analyst Capstone Project </a>, 2021.</li><p></p>
+						
+						<p></p><li>IBM, <a href="https://coursera.org/share/9c8dc3d1f608654c745263fc43a66de8" target="new"> Data Visualization with Python </a>, 2021.</li><p></p>
+						
+						<p></p><li> <a href="https://coursera.org/share/7701ca29eb2deb331e39274553f8e5af" target="new"> Excel Basics for Data Analysis </a>, 2021.</li><p></p>
+						
+						<p></p><li> <a href="https://coursera.org/share/870fe11ab84c75524ce5f700059476c4" target="new"> Python Project for Data Science </a>, 2021.</li><p></p>
+						
+						<p></p><li> <a href="https://www.coursera.org/account/accomplishments/verify/6Y444TGN5AGT" target="new"> Introduction to Data Analytics </a>, 2021.</li><p></p>
+						
+						<p></p><li><a href="https://www.coursera.org/account/accomplishments/verify/J5DQTZ6RTB2S" target="new"> Data Visualization and Dashboards with Excel and Cognos </a>, 2021.</li><p></p>
+						
+						<p></p><li> <a href="https://coursera.org/share/185428b5184378013a241d7a5c72cc07" target="new"> Python for Data Science, AI & Development </a>, 2021.</li><p></p>
+						
+						<p></p><li>Research Design for Qualitative Researchers: Key Principles, <a href="http://www.bradford.ac.uk/external/" target="new">University of Bradford</a>, UK. 2022</li><p></p>
+						
+                        <p></p><li>Learning & Teaching in Higher Education, <a href="https://www.bradford.ac.uk/teaching-quality/" target="new"> Associate Fellow of the Higher Education Academy (AFHEA)</a>, 2020. This covered <a href="https://www.officeforstudents.org.uk/advice-and-guidance/teaching/about-the-tef/" target="new"> UK Professional Standards Framework </a>and  <a href="https://www.advance-he.ac.uk/guidance/teaching-and-learning/ukpsf" target="new"> Teaching Excellence Framework. </a></li><p></p>
+                        
+						
+						<p></p><li>Starting to Teach, <a href="http://www.bradford.ac.uk/external/" target="new">University of Bradford</a>, UK. Certificate Course - 2018</li><p></p>
+                        <p></p><li>Induction to Teaching, <a href="http://www.bradford.ac.uk/external/" target="new">University of Bradford</a>, UK. Certificate Course - 2018</li><p></p>
+                        <p></p><li>Marking, Assessment & Feedback, <a href="http://www.bradford.ac.uk/external/" target="new">University of Bradford</a>, UK. Certificate Course - 2018</li><p></p>
+                        <p></p><li>Diversity in the Workplace, <a href="http://www.bradford.ac.uk/external/" target="new">University of Bradford</a>, UK. Certificate Course - 2018</li><p></p>
                       </ul>
                     </div>
                   </div>
@@ -438,11 +500,11 @@
         <footer class="site-footer clearfix">
           <div class="footer-social">
             <ul class="footer-social-links">
-              <li><a href="https://scholar.google.co.uk/citations?user=iHnh_kp2JOgC&hl=en">Google Scholar</a></li>
+              <li><a href="https://scholar.google.com/citations?user=RyLQoU8AAAAJ&hl=en">Google Scholar</a></li>
 
-              <li><a href="https://bradford.academia.edu/bashirmohammed">Academia</a></li>
+              <li><a href="#" target="_blank">Academia</a></li>
 
-              <li><a href="https://www.researchgate.net/profile/Bashir_Mohammed/publications">ResearchGate</a></li>
+              <li><a href="https://www.researchgate.net/profile/Julius-Mboli">ResearchGate</a></li>
 
               <li>
                 <a href="#" target="_blank">Twitter</a>
