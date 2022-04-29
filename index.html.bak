@@ -458,13 +458,13 @@
 			
                   <div class="col-xs-12 col-sm-6">
                     <div class="block-title">
-                      <h2>Media Coverage</h2>
+                      <h2>Education</h2>
                     </div>
   
                     <div class="ci-text">
                       <!-- <h4>Media Coverage</h4> -->
 					  <ol>
-                                           <ul>
+                       <ul>
                       <p><li><a href="https://www.youtube.com/watch?v=C6mIOTkGxt0&feature=emb_logo">Interview at Capitol Hill, Washington DC, USA</a></li></p>
                       </ul>
                       </p></p> 
@@ -486,7 +486,8 @@
 
                       <ul>
                       <p><li><a href="https://www.scicomnigeria.org/newitems/NigerianScientistShinesInTheUSA">Science Communication News Article</a></li></p>
-                      </ul>
+                      </ol>
+					  </ul>
                     </div>
                   </div>
                 </div>
