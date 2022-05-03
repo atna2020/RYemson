@@ -79,7 +79,7 @@
                 </li>
 
                 <li class="menu-item">
-                  <a href="media.html">Media</a>
+                  <a href="ResearchBlog.html">Research Blog</a>
                 </li>
               </ul>
             </div>
@@ -194,10 +194,11 @@
                           <h4>My current research interest</h4>
                           <ul>
                             <p></p><li>Real-time Machine Learning for Business Intelligence</li><p></p>
+							<p></p><li>Industry 4.0 technologies ans Circular Economy</li><p></p>
                             <p></p><li>Semantics Technologies and Fuzzy logic for  Business Analytics</li><p></p>
                             <p></p><li>Artificial Intelligence and Explainable AI. </li><p></p>
                             <p></p><li>Products Failure Prediction and Performance related issues</li><p></p>
-                            <p></p><li>Graph Databases</li><p></p>
+                            <p></p><li>Graph Databases (Resource Description Framework(RDF) and property Graph)</li><p></p>
                             <p></p><li>Technology-Based Decisions Support Systems (DSS) </li><p></p>
                           </ul>
                         </div>
@@ -361,7 +362,7 @@
                     </div>
                   </div>
 
-                  <div class=" col-xs-12 col-sm-6 ">
+      <!--            <div class=" col-xs-12 col-sm-6 ">
                     <!-- <div class="block-title">
                       <h2>Experience</h2>
                     </div> -->
@@ -399,7 +400,7 @@
 					  
                     </div>
                   </div>
-                </div>
+         <!--       </div>
 
                 <!-- Services -->
                 <div class="row">
@@ -494,7 +495,7 @@
                         <h5 class="item-period ">2019 - 2020</h5>
                         <span class="item-company"><a href="https://www.uopeople.edu/" target="new"> University of the People </a>, UK</span>
                         <h4 class="item-title"></h4>
-                        <p><b><a href="https://www.uopeople.edu/programs/ba/degrees/master-of-business-administration/overview/" target="new"> Master of Business Administration </a>, (MBA) Distinction</span> </b>.
+                        <p><b><a href="https://www.uopeople.edu/programs/ba/degrees/master-of-business-administration/overview/" target="new"> Master of Business Administration (MBA) </a> Grade: Distinction</span> </b>.
                         <p><b>Courses </b>
 						<p> Management Capstone,
 						Leading in Today's Dynamic Contexts,
@@ -519,7 +520,7 @@
                         <h5 class="item-period ">2014 - 2015</h5>
                         <span class="item-company"><a href="https://www.bradford.ac.uk/external/" target="new"> University of Bradford, Bradford  </a>, UK</span>
                         <h4 class="item-title"></h4>
-                        <p><b>MSc Personal Mobile and Satellite Communications (Distinction) </span> </b>.
+                        <p><b>MSc Personal Mobile and Satellite Communications. Grade: Distinction </span> </b>.
                         <p><b>Courses include:</p></b>
 						<p> signal and systems theory, Research Seminar series, Advanced 
 								Projects Skills, Digital Communications Principles, Signal Processing and 
