@@ -43,7 +43,7 @@
       <div id="page_container" class="page-container bg-move-effect" data-animation="transition-flip-in-right">
 
         <!-- Header -->
-        <header id="site_header" class="header" style="position:absolute top:0px left:0px height:200px right:0px;overflow:hidden>
+        <header id="site_header" class="header">
           <div class="header-content clearfix">
                 
             <!-- Text Logo -->
