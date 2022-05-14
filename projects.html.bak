@@ -11,6 +11,7 @@
     <meta name="author" content="lmpixels" />
     <link rel="shortcut icon" href="favicon.ico">
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.12.0/headroom.min.js">
 
     <link rel="stylesheet" href="css/normalize.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -76,7 +77,7 @@
                 </li>
 
                 <li class="menu-item">
-                  <a href="talks.html">Talks</a>
+                  <a href="talks.html">Talks and Presentations</a>
                 </li>
 
                 <li class="menu-item">
@@ -112,6 +113,60 @@
                     <div class="p-10"></div>
 
                     <div class="block-title">
+                      <h2>FUTURE OF SKILLS: UNDERSTANDING THE EDUCATIONAL IMPLICATIONS OF AI AND ROBOTICS</h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="info-list-w-icon">
+                      <div class="info-block-w-icon">
+                        <!-- <div class="ci-icon">
+                          <i class="linecons linecons-pen"></i>
+                        </div> -->
+      
+                        <div class="ci-text">
+                          <!-- <h4>Copywrite</h4> -->
+                          <p>
+                            This is a challenging but an exciting project from the <a href="https://www.oecd-ilibrary.org/" target="new"> Organisation for Economic Co-operation and Development (OECD) </a> that involves a team of collaborators from the United Kingdom and Spain.
+							I worked alongside other research assistants with <a href="https://eps.leeds.ac.uk/computing/staff/76/professor-anthony-tony-g-cohn-freng-ceng-citp" target="new"> Anthony Cohn, Professor of Automated Reasoning at the <a href="https://www.leeds.ac.uk/" target="new">University of Leeds</a>, working in AI and robotics, and </a>
+							<a href="https://josephorallo.webs.upv.es/" target="new">Professor José Hernández-Orallo</a> of <a href="https://vrain.upv.es/" target="new">Valencian Research Institute for Artificial Intelligence</a>, <a href="http://www.upv.es/en" target="new">Universitat Politècnica de València</a>. 
+							<p> In this project, we are working on a framework to categorise what we refer to as “Evaluation Instruments (EIs)” (which subsume Benchmarks and  Competitions). The framework consists of meta-informations and  18 “facets” that are used to evalaute Artificial intelligence (AI) agents and robots. 
+							For more detail on this project, check <a href="https://www.oecd-ilibrary.org/education/ai-and-the-future-of-skills-volume-1_5ee71f34-en" target="new">Educational Research and Innovation </a>, <a href="https://www.oecd-ilibrary.org/docserver/d755c6d6-en.pdf?expires=1651364047&id=id&accname=guest&checksum=B7653F6807A128ADE82AC22797746C8A" target>On evaluating artificial intelligence systems: Competitions and benchmarks</a> 
+							and/or <a href="https://www.oecd-ilibrary.org/docserver/85aeb432-en.pdf?expires=1651364190&id=id&accname=guest&checksum=EACBF644FA88A6343F15AE9C31197D0E" target="new">Identifying artificial intelligence capabilities: What and how to test</a>.
+							
+							<p> One of the EIs we evaluated is RoboCup@Home, a league that aims to develop service and assistive robot technology with high relevance for future personal domestic applications.
+							It is regarded as the largest international annual competition for autonomous service robots and it is also part of the RoboCup initiative. According to the organizing, "A set of benchmark tests is used to evaluate the robots’ abilities and performance in a realistic non-standardized home environment setting. 
+							Focus lies on the following domains but is not limited to: Human-Robot-Interaction and Cooperation, Navigation and Mapping in dynamic environments, 
+							Computer Vision and Object Recognition under natural light conditions, Object Manipulation, Adaptive Behaviors, Behavior Integration, 
+							Ambient Intelligence, Standardization and System Integration. It is colocated with the RoboCup symposium." More and up to date details can found on the <a href="https://athome.robocup.org/" target="new">competition website</a>
+							</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+				
+				<div class="col-xs-12 col-sm-6">
+                    <div class="ci-text">
+                      <img src="./Projects_files/pic2.jpg" align="center">
+                      <p>RoboCup Standard Platform League.
+					  Image Source: <a href="https://www.robocup.org/photos?page=4" target="new"> RoboCup Photo Gallery</a></p>
+					  <iframe width="560" height="315" src="https://www.youtube.com/embed/YpjeNa8BAYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+				
+				
+               <!-- /Services -->
+				
+				<!-- Services -->
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="p-10"></div>
+
+                    <div class="block-title">
                       <h2>Horizon Scanning project with Digital Catapult for Digital Urban Planning</h2>
                     </div>
                   </div>
@@ -139,7 +194,44 @@
                     </div>
                   </div>
                 </div>
+				
+				
                 <!-- /Services -->
+				<!-- Services -->
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="p-10"></div>
+
+                    <div class="block-title">
+                      <h2>Data Analyst at UNICEF HTR-MNCH Project</h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="info-list-w-icon">
+                      <div class="info-block-w-icon">
+                        <!-- <div class="ci-icon">
+                          <i class="linecons linecons-pen"></i>
+                        </div> -->
+      
+                        <div class="ci-text">
+                          <!-- <h4>Copywrite</h4> -->
+                          <p>
+                            Worked as a Recorder and data analyst in the implementing team.
+							Mines effective and qualitative data for monitoring and evaluation purpose in the project.
+							Also came up with a better and reliable register for capturing clients’ history and treatment details in several Hard-To-Reach (HTR) settlements in Nigeria. 
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+				
+				
+                <!-- /Services -->
+
 
                
                 <!-- Services -->
