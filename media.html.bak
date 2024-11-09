@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-    <title>Julius S. Mboli</title>
+    <title>Rose A. Yemson</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="Julius S. Mboli - Resume / CV / vCard" />
+    <meta name="description" content="Rose A. Yemson - Resume / CV / vCard" />
     <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, portfolio" />
     <meta name="author" content="lmpixels" />
     <link rel="shortcut icon" href="favicon.ico">
@@ -48,8 +48,8 @@
             <!-- Text Logo -->
             <div class="text-logo">
               <a href="index.html">
-                <div class="logo-symbol">JSM</div>
-                <div class="logo-text">Julius<span>Mboli</span></div>
+                <div class="logo-symbol">RAY</div>
+                <div class="logo-text">Rose<span>Yemson</span></div>
               </a>
             </div>
             <!-- /Text Logo -->
