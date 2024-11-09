@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-    <title>Julius S. Mboli</title>
+    <title>Rose A. Yemson</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="Julius S. Mboli - Resume / CV / vCard" />
+    <meta name="description" content="Rose A. Yemson - Resume / CV / vCard" />
     <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, portfolio" />
     <meta name="author" content="lmpixels" />
     <link rel="shortcut icon" href="favicon.ico">
@@ -52,8 +52,8 @@
             <!-- Text Logo -->
             <div class="text-logo">
               <a href="index.html">
-                <div class="logo-symbol">JSM</div>
-                <div class="logo-text">Julius S.<span>Mboli</span></div>
+                <div class="logo-symbol">RAY</div>
+                <div class="logo-text">Rose A.<span>Yemson</span></div>
               </a>
             </div>
             <!-- /Text Logo -->
@@ -108,7 +108,7 @@
                         
                         <div class="col-sm-12 col-md-5 col-lg-5">
                           <div class="home-photo">
-                            <div class="hp-inner" style="background-image: url(img/main_photo.jpg);">
+                            <div class="hp-inner" style="background-image: url(img/RoseYemson.jpeg);">
                             </div>
                           </div>
                         </div>
@@ -116,7 +116,7 @@
                         <div class="col-sm-12 col-md-7 col-lg-7">
                           <div class="home-text hp-left">
                               
-                            <h1>Julius S. Mboli</h1>
+                            <h1>Rose A. Yemson</h1>
                             <div class="owl-carousel text-rotation">                                    
                               <div class="item">
                                 <h4> Artificial intelligence (AI) and Internet of Things (IoT)</h4>
